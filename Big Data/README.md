@@ -1,7 +1,5 @@
 
-# 📦 Big Data Analysis – Amazon Unlocked Mobile Reviews
-
-### 🎓 Internship Task: Big Data Analysis | Domain: Data Analysis  
+# 📦 Big Data Analysis – Amazon Unlocked Mobile Reviews 
 🔧 Tools Used: PySpark, Google Colab, Pandas
 
 ---
@@ -18,7 +16,8 @@ This task focuses on performing **Big Data Analysis** using `PySpark` on a real-
 ## 📊 Dataset Overview
 
 **Name**: `Amazon_Unlocked_Mobile.csv`  
-**Records**: ~413,000+  
+**Records**: ~413,000+ 
+**Dataset Link**: https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones
 **Columns**:
 - `Product Name`: Name/model of the mobile phone
 - `Brand Name`: Brand of the product
