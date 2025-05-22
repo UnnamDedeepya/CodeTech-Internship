@@ -1,95 +1,80 @@
 
-# 📦 Big Data Analysis – Amazon Unlocked Mobile Reviews 
-🔧 Tools Used: PySpark, Google Colab, Pandas
+# 💼 CodeTech Internship – Data Analysis Domain
+
+Welcome to my CodeTech Internship Portfolio! Over the course of this internship, I tackled four major tasks in the data analysis domain — from building dashboards to performing machine learning and big data analysis. This journey helped me strengthen my data science skills and apply them to real-world problems.
+---
+
+## ✅ Task 1: Dashboard Development (Power BI)
+
+**Objective**: Build an interactive, insight-driven dashboard to explore customer loan behavior.
+
+**Key Activities**:
+- Connected to banking loan dataset
+- Cleaned and categorized columns (e.g., `Education`, `Family`, `Online`)
+- Created slicers and groupings (e.g., income bins, age bins)
+- Designed interactive KPIs: loan approval %, avg income, credit card spend
+- Visualized data with tree maps, bar charts, conversion funnels
+- Used navigation buttons and visual-level filters
+
+**Tools Used**: Power BI  
+**Outcome**: Delivered a business-friendly dashboard with meaningful visuals and interactive insights.
 
 ---
 
-## 📌 Objective
+## ✅ Task 2: Sentiment Analysis (Twitter US Airline Dataset)
 
-This task focuses on performing **Big Data Analysis** using `PySpark` on a real-world large-scale dataset of mobile product reviews. The goal is to:
-- Clean and process messy data containing over 400,000 records
-- Analyze brand trends, ratings, and pricing
-- Handle data at scale using distributed computing practices
+**Objective**: Analyze customer sentiment from tweets and classify them using machine learning.
 
----
+**Key Activities**:
+- Cleaned tweets (removed URLs, mentions, punctuation)
+- Visualized positive, negative, and neutral tweet distribution
+- Generated word clouds for each sentiment
+- Built ML models: Logistic Regression, Naive Bayes, Random Forest, SVM
+- Evaluated models (accuracy ~80% with Logistic Regression)
 
-## 📊 Dataset Overview
-
-**Name**: `Amazon_Unlocked_Mobile.csv`  
-**Records**: ~413,000+  
-**Dataset Link**: https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones
-**Columns**:
-- `Product Name`: Name/model of the mobile phone
-- `Brand Name`: Brand of the product
-- `Price`: Sale price of the mobile
-- `Rating`: User rating (1 to 5 stars)
-- `Reviews`: Free-text customer review
-- `Review Votes`: Number of helpfulness votes
+**Tools Used**: Python, Jupyter Notebook, NLTK, Scikit-learn  
+**Outcome**: Logistic Regression chosen as final model with solid sentiment classification.
 
 ---
 
-## 🧹 Data Cleaning & Preparation
+## ✅ Task 3: Predictive Analysis (Diabetes Prediction)
 
-Several real-world issues were handled during preprocessing:
+**Objective**: Predict the likelihood of diabetes from patient health indicators.
 
-### 🔹 1. Malformed Rows
-- Many rows contained **long unquoted reviews** with commas, causing misaligned data.
-- Fixed using:
-  ```python
-  .option("multiLine", True).option("quote", '"').option("escape", '"')
-  ```
+**Key Activities**:
+- Replaced invalid values (e.g., 0s in glucose/BMI) with medians
+- Engineered features like `Glucose_BMI` and `Age_Group`
+- Built and evaluated multiple models (Logistic Regression, RF, SVM)
+- Achieved ~76% accuracy with Logistic Regression
 
-### 🔹 2. Missing or Dirty Values
-- Dropped rows with blank or missing `Brand Name` (~90K rows)
-- Removed symbols and text from numeric columns using regex
-- Casted `Price`, `Rating`, `Review Votes` to `DoubleType`
-- Replaced missing numeric values with column mean
-- Filled missing `Product Name` or `Review` fields with `"Unknown"`
-
-### 🔹 3. Verified Clean Data
-- Confirmed schema
-- Validated numeric column conversions
-- Exported cleaned dataset for reuse
+**Tools Used**: Python, Scikit-learn, Seaborn , Jupyter Notebook
+**Outcome**: Built an effective prediction pipeline and explained dataset limitations for medical prediction.
 
 ---
 
-## 🔍 Data Analysis & Insights
+## ✅ Task 4: Big Data Analysis (Amazon Mobile Reviews)
 
-### ✅ 1. Top 10 Most Reviewed Brands
-Identified brands like **Samsung, Apple, LG, Motorola** as the most reviewed.
+**Objective**: Analyze a large dataset of mobile reviews using PySpark.
 
-### ✅ 2. Average Rating by Brand
-Revealed:
-- **Apple** and **OnePlus** consistently have high user satisfaction (avg rating ≥ 4.0)
-- Budget brands like **Blu** also show strong user feedback
+**Key Activities**:
+- Handled messy CSV rows (long unquoted reviews)
+- Cleaned and converted `Price`, `Rating`, `Review Votes` to numeric
+- Replaced missing values with column means
+- Grouped and exported insights: top brands, avg rating, price distribution
+- Downloaded cleaned results and visualized trends
 
-### ✅ 3. Average Price by Brand
-- **Apple** leads with the highest average pricing
-- **ZTE**, **BLU**, and **Nokia** trend in the budget segment
-
-### ✅ 4. Rating Distribution
-- Most ratings hover between **3.5 to 4.5**
-- Low number of 1-star reviews indicates general product satisfaction
+**Tools Used**: PySpark, Google Colab, Pandas, Matplotlib  
+**Outcome**: Demonstrated large-scale data processing, cleaning, and aggregation with PySpark.
 
 ---
 
-## 📁 Exported Results
+## 🏁 Conclusion
 
-Grouped analysis was exported as CSV files:
-- `Average_Rating_By_Brand.csv`
-- `Average_Price_By_Brand.csv`
-- `Most_Reviewed_Brands.csv`
+This internship sharpened my practical knowledge in:
+- Data wrangling
+- Visual analytics
+- Sentiment and predictive modeling
+- Big data processing
 
-These offer downloadable insights from the cleaned dataset.
-
----
-
-## ✅ Conclusion
-
-This project demonstrates:
-- Real-world Big Data cleaning with PySpark
-- Handling messy textual data at scale
-- Producing actionable insights from e-commerce product review data
-
-> The approach and methodology reflect practical big data analytics in modern industry pipelines. This task simulates a scalable, professional-grade data workflow.
+> Each task simulated a real-world business or industry use case, preparing me for hands-on data roles in the future.
 
