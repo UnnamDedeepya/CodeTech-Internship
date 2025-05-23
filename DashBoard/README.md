@@ -52,7 +52,7 @@ This Power BI dashboard is built to analyze loan behavior, customer segmentation
 
 ![Image](https://github.com/user-attachments/assets/8a916aa0-257b-406c-9cee-346a2e71d895)
 
-https://github.com/UnnamDedeepya/CodeTech-Internship/issues/1#issuecomment-2903284108
+![Image](https://github.com/user-attachments/assets/9f84d698-88f5-4ef7-90be-38f9c95d1fc9)
 
 This dashboard allows decision-makers to:
 
