@@ -45,6 +45,8 @@ This project focuses on predicting the likelihood of a person having diabetes ba
 | Random Forest         | ~76%     |
 | Support Vector Machine (SVM) | ~76%     |
 
+![Image](https://github.com/user-attachments/assets/2a45ab57-b616-474d-9009-f5b52145746f)
+
 ---
 
 ## 📉 Why Accuracy Was Not Higher
