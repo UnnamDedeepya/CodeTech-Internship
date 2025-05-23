@@ -37,6 +37,10 @@ This project applies Natural Language Processing (NLP) techniques to analyze air
 | Random Forest          | 77% |
 | Naive Bayes            | 73% |
 
+![Image](https://github.com/user-attachments/assets/67e372cf-f652-487b-bcf1-8bec516ff81a)
+
+![Image](https://github.com/user-attachments/assets/3376fc3c-7b28-4a33-8ab7-d500cdac3ed0)
+
 - Logistic Regression performed best overall and was selected as the final model.
 
 ---
