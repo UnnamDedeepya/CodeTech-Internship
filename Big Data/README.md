@@ -82,6 +82,14 @@ Grouped analysis was exported as CSV files:
 
 These offer downloadable insights from the cleaned dataset.
 
+![Image](https://github.com/user-attachments/assets/517682df-2aa2-43a6-ae9d-f842cedc7d82)
+
+![Image](https://github.com/user-attachments/assets/632bead8-edc1-41bb-b1ae-698f2d7f1fa8)
+
+![Image](https://github.com/user-attachments/assets/8753b204-15d8-4ac6-8dca-0214e825dd66)
+
+![Image](https://github.com/user-attachments/assets/3a0c6305-de28-4830-98de-7002bcb22910)
+
 ---
 
 ## ✅ Conclusion
