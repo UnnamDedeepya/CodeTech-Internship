@@ -2,10 +2,15 @@
 # 💼 CodeTech Internship – Data Analysis Domain
 
 **COMPANY**: CODTECH IT SOLUTIONS
+
 **NAME**: UNNAM DEDEEPYA
+
 **INTERN ID**: CT08DM210
+
 **DOMAIN**: DATA ANALYSIS
+
 **DURATION**: 8 WEEKS
+
 **MENTOR**: NEELA SANTOSH
 
 Welcome to my CodeTech Internship Portfolio! Over the course of this internship, I tackled four major tasks in the data analysis domain — from building dashboards to performing machine learning and big data analysis. This journey helped me strengthen my data science skills and apply them to real-world problems.
